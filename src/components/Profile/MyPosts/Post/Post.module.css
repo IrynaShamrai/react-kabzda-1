@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    padding: 5px 0 0 5px;
+}
+
+.item img {
+    height: 30px;
+    width: 30px
+}
+
+.item p{
+    margin:0;
+}
+
+.messageContainer{
+    display: flex;
+    padding: 0 0 0 5px;
+    flex-direction: column;
+}

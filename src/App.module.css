@@ -1,0 +1,32 @@
+ul li {
+  list-style-type: none;
+
+}
+
+.appWrapper {
+  display: grid;
+
+  grid-template-areas: 
+  'h h'
+  'n c';
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.appWrapperContent{
+  grid-area: c;
+  background-color: darkgray;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: default;
+}
+
+a:hover {
+  color: gray;
+}
+

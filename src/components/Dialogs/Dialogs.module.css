@@ -1,0 +1,38 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+}
+
+.dialogsItems {
+    padding:10px;
+}
+
+.dialog {
+
+}
+
+.dialogs a {
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+
+.dialogs a:hover {
+    color: rgb(116, 114, 114);
+}
+
+.dialogs a.active{
+    display: block;
+    padding: 10px 10px 10px 0px;
+    margin: 0 0 0 -10px;
+    text-align: right;
+    background: linear-gradient(to left, #aacece, white);
+}
+
+.messanges {
+    padding:10px;
+}
+
+.messange {
+
+}
