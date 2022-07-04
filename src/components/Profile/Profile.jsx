@@ -4,13 +4,15 @@ import MyPosts from './MyPosts/MyPosts';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = (props) => { 
-
   return (
     <div>
         <ProfileInfo/>
-        <MyPosts posts={props.posts} />
+        <div className={cls.wrapperPosts}>
+          <MyPosts posts={props.state.postData} dispatch={props.dispatch}/>
+        </div>
     </div>
     )
+    
 }
 
 export default Profile;
